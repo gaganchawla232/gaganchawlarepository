@@ -12,7 +12,6 @@ public class BrowserAssertions  {
 	
 public  void titleVerify(String expectedResult) {
 	
-	Assert.assertTrue(driver.getTitle().contains(expectedResult),"title is not same");
 }
 public void verifyLinkURL(String expectedResult,String actual) {
 	Assert.assertTrue(expectedResult.contains(actual),"Destination link URL is not correct");
