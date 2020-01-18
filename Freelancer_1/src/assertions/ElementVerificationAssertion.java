@@ -30,8 +30,4 @@ try {
 }
 catch(Exception e) {
 	Assert.assertTrue(false,"Element not found");
-}
-}
-
-	
-}
+}}}
